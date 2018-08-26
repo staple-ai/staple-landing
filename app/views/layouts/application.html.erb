@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="js">
   <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ben Stein">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Airledger offers a Blockchain-as-a-Service with flexible, self-executing contracts to completely automate document workflows in business and the supply chain.">
     <title>AirLedger</title>
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag "bootstrap.min" => true %>
@@ -21,9 +25,20 @@
     <%= csrf_meta_tags %>
     <%= yield :head %>
 
+    <!-- Fav Icon  -->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- Site Title  -->
+    <!-- Vendor Bundle CSS -->
+    <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=140">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css?ver=140">
+    <link rel="stylesheet" href="assets/css/theme-blue.css?ver=140">
+
   </head>
 
   <body>
-    <%= yield %>
+    <div>
+      <%= yield %>
+    </div>
   </body>
 </html>

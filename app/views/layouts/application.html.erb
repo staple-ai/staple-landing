@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AirledgerLanding</title>
-    <%= csrf_meta_tags %>
+    <title>AirLedger</title>
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag "bootstrap.min" => true %>
+    <%= javascript_include_tag "jquery" => true %>
+    <%= javascript_include_tag "jquery.bundle" => true %>
+    <%= javascript_include_tag "jquery.easing.min" => true %>
+    <%= javascript_include_tag "jquery.countdown.min" => true %>
+    <%= javascript_include_tag "jquery.waypoints.min" => true %>
+    <%= javascript_include_tag "jquery.magnific-popup.min" => true %>
+    <%= javascript_include_tag "form.plugins" => true %>
+    <%= javascript_include_tag "googleMap" => true %>
+    <%= javascript_include_tag "select2.min" => true %>
+    <%= javascript_include_tag "particles.min" => true %>
+    <%= javascript_include_tag "owl.carousel" => true %>
+    <%= javascript_include_tag "script" => true %>
+    <%= javascript_include_tag 'application' %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= csrf_meta_tags %>
+    <%= yield :head %>
+
   </head>
 
   <body>

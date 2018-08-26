@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Airledger offers a Blockchain-as-a-Service with flexible, self-executing contracts to completely automate document workflows in business and the supply chain.">
     <title>AirLedger</title>
+
     <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag "bootstrap.min" => true %>
     <%= javascript_include_tag "jquery" => true %>
-    <%= javascript_include_tag "jquery.bundle" => true %>
-    <%= javascript_include_tag "jquery.easing.min" => true %>
-    <%= javascript_include_tag "jquery.countdown.min" => true %>
-    <%= javascript_include_tag "jquery.waypoints.min" => true %>
+    <%= javascript_include_tag "jquery.easing" => true %>
     <%= javascript_include_tag "jquery.magnific-popup.min" => true %>
     <%= javascript_include_tag "form.plugins" => true %>
     <%= javascript_include_tag "googleMap" => true %>
@@ -27,16 +24,15 @@
 
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="images/favicon.png">
-    <!-- Site Title  -->
-    <!-- Vendor Bundle CSS -->
     <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=140">
-    <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/style.css?ver=140">
-    <link rel="stylesheet" href="assets/css/theme-blue.css?ver=140">
+    <link rel="stylesheet" href="assets/css/theme.css?ver=140">
 
   </head>
 
   <body>
+    
+    <%= render "shared/header" %>
     <div>
       <%= yield %>
     </div>

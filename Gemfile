@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'activestorage'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'bourbon'
 gem 'coffee-rails', '~> 4.2'
@@ -22,6 +23,7 @@ gem 'rails_12factor', group: :production
 gem 'rubyzip'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5'
+
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do

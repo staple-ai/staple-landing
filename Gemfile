@@ -23,7 +23,6 @@ gem 'rails_12factor', group: :production
 gem 'rubyzip'
 gem 'sass-rails', '~> 5.0'
 gem 'turbolinks', '~> 5'
-
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do

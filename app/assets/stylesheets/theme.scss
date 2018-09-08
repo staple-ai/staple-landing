@@ -25,7 +25,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 
 .color-primary { color: #46bdf4; }
 
-.color-secondary { color: #7a0fff; }
+.color-secondary { color: #16a1ff; }
 
 .bg-primary { background: #46bdf4; }
 
@@ -269,6 +269,9 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .theme-lavendar .navbar-toggler { background: #40beff; }
 
 .section-bg-light .small-heading, [class*=section-bg-light] .small-heading { color: rgba(93, 70, 232, 0.5); }
+
+.section-bg-scale-1 { background: #0c0f2a; }
+.section-bg-scale-3 { background: #08091A; }
 
 .section-bg-lavendar { background: #5d46e8; }
 .section-bg-lavendar .section-head-s3 .section-title:before { background: #ff9259; }

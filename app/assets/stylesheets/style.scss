@@ -1812,14 +1812,14 @@ label.error { display: none !important; font-size: 13px; margin-top: 5px; color:
 
 .section-bg-lavendar { background: #5d46e8; }
 .section-bg-lavendar h1, .section-bg-lavendar h2, .section-bg-lavendar h3, .section-bg-lavendar h4, .section-bg-lavendar h5, .section-bg-lavendar h6, .section-bg-lavendar p { color: #fff; }
-.section-bg-lavendar .section-head-s3 .section-title:before { background: #ff9259; }
+.section-bg-lavendar .section-head-s3 .section-title:before { background: #16a1ff; }
 
 .section-bg-light-alt { background: rgba(93, 70, 232, 0.04); }
 
 .section-head-s3 { margin-bottom: 70px; }
 .section-head-s3 .section-title { font-weight: 400; position: relative; padding-top: 30px; }
-.section-head-s3 .section-title:before { position: absolute; content: ''; top: 0; left: 50%; transform: translateX(-50%); height: 6px; width: 50px; border-radius: 3px; background: #43A1F8; }
-.section-head-s3 p { color: #43A1F8; }
+.section-head-s3 .section-title:before { position: absolute; content: ''; top: 0; left: 50%; transform: translateX(-50%); height: 6px; width: 50px; border-radius: 3px; background: #16a1ff; }
+.section-head-s3 p { color: #16a1ff; }
 
 .warnning-badge { font-weight: 500; font-size: .7em; line-height: 20px; padding: 5px 20px; border-radius: 15px; background: #ff9259; letter-spacing: .1em; text-transform: uppercase; }
 
@@ -2204,8 +2204,9 @@ label.error { display: none !important; font-size: 13px; margin-top: 5px; color:
 .section-head-s4 { padding-bottom: 50px; }
 .section-head-s5 { padding-bottom: 55px; }
 .section-head-s5 .section-title { position: relative; padding-bottom: 26px; }
-.section-head-s5 .section-title:after { position: absolute; left: 50%; bottom: 0; content: ''; margin-left: -40px; width: 80px; height: 6px; border-radius: 3px; background: #39a9ff; }
-.section-bg-muscari .section-head-s5 .section-title:after { background: #ffc123; }
+.section-head-s5 .section-title:after { position: absolute; left: 50%; bottom: 0; content: ''; margin-left: -40px; width: 80px; height: 6px; border-radius: 3px; background: #16a1ff
+  ; }
+.section-bg-muscari .section-head-s5 .section-title:after { background: #16a1ff; }
 
 @media only screen and (max-width: 991px) { .header-image-muscari { margin: 0 -15px; } }
 @media only screen and (max-width: 1024px) { .section-bg-angle { transform: skewY(10deg); }

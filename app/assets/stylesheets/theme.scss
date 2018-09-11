@@ -816,4 +816,8 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .logo-half { max-width:60%; max-height:60%; }
 .fa { padding-top: 22px; font-size: 20px;}
 
+@media only screen and (max-width: 600px) {
+  .fa { margin-top: -12px; font-size: 15px;}
+}
+
 /*! END */

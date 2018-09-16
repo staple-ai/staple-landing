@@ -1,0 +1,40 @@
+<div class="section team-section section-pad section-bg-blend nopb" id="subscribe">
+  <div class="container">
+    <div class="section-head-s3 text-center">
+      <h2 class="section-title animated" data-animate="fadeInUp" data-delay=".1">Join our Beta Program</h2>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-6 res-l-bttm">
+        <div class="subscribe-rounded">
+          <h5 class="animated" data-animate="fadeInUp" data-delay=".1">Participate in an exclusive opportunity to harness the power of AI in your business.</h5>
+          <p class="animated" data-animate="fadeInUp" data-delay=".2">Submit your email or <a href="mailto:hello@staple.io">contact us</a> to participate in our Closed Beta Program.</p>
+          
+          <%= form_for Subscriber.new do |f| %>
+        <% if Subscriber.new.errors.any? %>
+          <div id="error_explanation">
+              <%= "#{pluralize(@subscriber.errors.count, "error")} prohibited this subscriber from being saved:" %>
+            <ul>
+              <% @subscriber.errors.full_messages.each do |msg| %>
+                <li>
+                  <%= msg %>
+                </li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+          <%= f.text_field :email, placeholder: "Enter your email", required: true, type: "email", :class => "input-round required email", :data => { :animate => "fadeInUp", :delay => ".3"} %>
+            <p class="help-block text-danger"></p>
+
+          <div id="success"></div>
+          <%= f.submit 'Let me Know', :type =>"submit", :class => "btn subscription-form-animated" %>
+    <% end %>
+
+          
+
+          <div class="subscribe-results"></div>
+          <br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

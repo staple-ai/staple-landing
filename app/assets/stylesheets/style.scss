@@ -121,7 +121,35 @@ a:hover, a:focus, a:active { outline: 0; color: #8255fd; }
 .theme-light .section-bg-dark { background: #e5f0ff; }
 .io-azure .section-bg-dark { background: #15257b; }
 
+.section-bg-blend-how{ 
+  background-image: linear-gradient(to bottom, #0c0f2a 0%, #283ca1 100%);
+  // z-index: 1;
+  // position: relative;
+}
+
+.section-bg-blend-how:before {
+  // -webkit-transform: rotate(-8deg);
+  // transform: rotate(-8deg);
+  // -webkit-transform-origin: 35% 0;
+  // transform-origin: 35% 0;
+  // top: 0;
+  // left: -25%;
+  // z-index: -1;
+  // width: 150%;
+  // height: 150%;
+  // background: inherit; 
+  // position: absolute;
+  // content:'';
+}
+
 .section-bg-blend { background-image: linear-gradient(to bottom, #0c0f2a 0%, #0b0c22 70%); }
+.section-bg-blend-about { background-image: linear-gradient(to bottom, #0c0f2a 0%, #0A3558 70%); }
+.section-bg-blend-benefits { background: #fff !important; }
+.section-bg-blend-how { background: #e0e9f0 !important; }
+.section-bg-blend-subscribe { 
+  background-image: linear-gradient(to bottom, #0A3558 0%, #0c0f2a 70%); 
+}
+
 .theme-light .section-bg-blend { background-image: linear-gradient(to bottom, #eef4fe 0%, #fff 70%); }
 
 .section-bg-atob { background-image: linear-gradient(to bottom, #10122d 0%, #0b0c22 70%); }

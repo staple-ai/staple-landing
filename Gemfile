@@ -19,7 +19,7 @@ gem 'jquery-slick-rails'
 gem 'jquery-ui-rails'
 gem 'owlcarousel-rails'
 gem 'pg'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 5.6'
 gem 'rails', '~> 5.1.5'
 gem 'rails_12factor', group: :production
 gem 'rubyzip'
